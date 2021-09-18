@@ -1,1 +1,84 @@
+html, body {
 
+  background-color: #608;
+  height: 100%;
+
+}
+
+header {
+
+  display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  justify-content: space-between;
+  background-color: #fff;
+  
+}
+
+header div {
+
+  flex-grow: 1;
+  height: 35px;
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+  /* overall use 46px height */
+
+}
+
+header div img{
+  height: 100%;
+}
+
+#search-container {
+
+  flex-grow: 1;
+  text-align: center;
+
+}
+
+#search-container form > input:first-child {
+
+  box-sizing: border-box;
+  height: 30px;
+  width: 50%;
+  margin: 0px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 15px 0px 0px 15px;
+
+}
+
+#search-container form input:last-child {
+
+  box-sizing: border-box;
+  background-color: #008;
+  color: #fff;
+  cursor: pointer;
+  height: 30px;
+  width: 20%;
+  margin: 0px;
+  border: 0px;
+  border-radius: 0px 15px 15px 0px;
+
+}
+
+header div:last-child{
+  text-align: right;
+}
+
+
+/* body part */
+
+section {
+  
+  /* display: flex; */
+  width: 60%;
+  height: 100%;
+  margin: auto;
+  margin-top: 46px;
+  background-color: #fff;
+
+}
