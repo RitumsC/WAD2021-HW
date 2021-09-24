@@ -5,6 +5,13 @@ html, body {
 
 }
 
+p {
+
+  margin-top: 0px;
+  margin-bottom: 5px;
+
+}
+
 header {
 
   display: flex;
@@ -166,7 +173,6 @@ section div.post_footer{
   justify-content: left;
 
   height: 35px;
-  width: 100%;
   padding: 5px 5px 0 5px;
 
 }
@@ -174,7 +180,7 @@ section div.post_footer{
 section div.post_photo{
 
   display: flex;
-  padding: 10px 0 10px;
+  padding: 10px 0 5px;
 
 }
 
@@ -187,6 +193,7 @@ section div + p{
 section img ~ p{
 
   font-size: smaller;
+  color: #999;
 
 }
 
